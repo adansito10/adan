@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-    const apiUrl = "http://test.utcv.edu.mx/api/products";
+    const apiUrl = "https://test.utcv.edu.mx/api/products";
 
     let localProducts = []; // Variable local para almacenar los productos.
 
