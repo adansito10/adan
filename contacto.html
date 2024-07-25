@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="edit.css">
+    <title>contacto</title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">STUDIO AF </a>
+
+
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+      
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iniciar-sesion.html">iniciar sesion</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<body>
+    <section>
+        <div class="container">
+            <div class="container">
+                <h4>empresa</h4>
+                <div class="container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3775.9485154966687!2d-97.10628362480038!3d18.84495688231264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses!2smx!4v1721764907617!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0" allowfullscreen="" frameborder="0" height="250" width="100%"></iframe>
+                </div>
+                <strong>Contactenos</strong><br><strong>telefono:</strong> 272 203 2276 <strong>       Correo eletronico:</strong> studio.af30@gmail.com
+                <hr>
+            </div>
+            <div class="container">
+                <form role="form" id="Formulario" action="" method="POST">
+                    <div class="form-group">
+                        <label class="control-label" for="Nombre">Nombre</label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required autofocus pattern="[a-za]+" title="El nombre solo puede contener letras" />
+                    </div>            
+                    <div class="form-group">
+                        <label for="Telefono">Teléfono</label>
+                        <input type="tel" name="Telefono" class="form-control" placeholder="Ingrese su número de teléfono" pattern="\d{10}" title="El número de teléfono debe contener exactamente 10 dígitos" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
+                        <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electrónico" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Mensaje">Mensaje</label>
+                        <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required maxlength="255"></textarea>
+                    </div>
+                    <div class="form-group">                
+                        <input type="submit" class="btn btn-primary" value="Enviar">
+                        <input type="reset" class="btn btn-default" value="Limpiar">                
+                    </div>
+                    <div id="respuesta" style="display: none;"></div>
+                </form>
+            </div>       
+        </div>
+    </section>
+
+    <link rel="stylesheet" href="jquety.js">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="script.js">
+    
+</body>
+</html>

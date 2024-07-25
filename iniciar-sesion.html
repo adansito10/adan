@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseño.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>iniciar sesion</title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">STUDIO AF </a>
+
+
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iniciar-sesion.html">iniciar sesion</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section class="vh-100">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 text-black">
+
+          <div class="px-5 ms-xl-4">
+            <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4" style="color: #00f7a1;"></i>
+            <span class="h1 fw-bold mb-0">STUDIO AF</span>
+          </div>
+
+          <div class="d-flex align-items-left h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+
+            <form id="login-form" style="width: 20rem;">
+
+              <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">iniciar sesion</h3>
+
+              <div class="form-outline mb-4">
+                <input type="email" id="email" class="form-control form-control-lg" placeholder="correo eletronico" required />
+              </div>
+
+              <div class="form-outline mb-4">
+                <input type="password" id="password" class="form-control form-control-lg" placeholder="contraseña" required />
+              </div>
+
+              <div class="pt-1 mb-4">
+                <button class="btn btn-info btn-lg btn-block" type="submit">ingresar</button>
+              </div>
+
+              <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!"></a></p>
+              <p>aun no tienes una cuenta? <a href="registro.html" class="link-info">registrate aqui</a></p>
+
+            </form>
+
+            <div id="alert-container" class="mt-3"></div>
+
+          </div>
+
+        </div>
+        <div class="col-sm-6 px-0 d-none d-sm-block">
+          <img src="montada en el caballitoç.jpg"
+            alt="Login image" class="w-85 vh-100" style="object-fit: cover; object-position: left;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

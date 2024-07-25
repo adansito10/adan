@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #080d27;
+    
+}
+
+.navbar {
+    background-color: rg
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 70%; /* Ajusta la posición vertical */
+    left: 7%; /* Ajusta la posición horizontal */
+    transform: translateY(-50%); /* Elimina la traslación horizontal */
+    background-color: #fff(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.carousel-caption h1 {
+    font-size: 3.5rem; /* Tamaño de fuente del título */
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra */
+}
+.carousel-caption h4{
+    font-size: 3.5rem; /* Tamaño de fuente del título */
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra */
+    
+}
+
+
+.carousel-caption p {
+    font-size: 1.5rem; /* Tamaño de fuente del párrafo */
+    color: #fff;
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra */
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.logo-pequeno {
+    max-width: 40px; /* Ajusta este valor según el tamaño deseado */
+}
+.container {
+    background-color: #ffffff; /* Color de fondo negro */
+    color: #000000; /* Color de texto blanco */
+    padding: 50px; /* Espaciado interno para separar el contenido del borde */
+}
+
+.cascading-right {
+    margin-right: -50px;
+  }
+
+  @media (max-width: 991.98px) {
+    .cascading-right {
+      margin-right: 0;
+    }
+  }
+
+.container{
+    background-color: #080d27;
+
+
+}
+
+.black-background {
+    background-color: #000000;
+    color: #ffffff; /* Color de texto blanco para contraste */
+}
+.font-italic {
+    font-style: italic;
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+.footer h5 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer a {
+    color: #fff;
+    font-size: 2em;
+    transition: color 0.3s;
+}
+.footer a:hover {
+    color: #aaa;
+}
