@@ -6,6 +6,7 @@ $(document).ready(function () {
 
     // Función para cargar los productos desde la API.
     function loadProducts() {
+        console.log("cargando productos...");
         $.ajax({
             url: apiUrl,
             method: "GET",
